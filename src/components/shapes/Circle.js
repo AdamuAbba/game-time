@@ -5,24 +5,22 @@ import { ShapeCard } from "../shared/cardConfigs";
 
 const Circle = () => {
   return (
-    <>
-      <Container>
-        <Card style={{ width: "18rem" }} className="mt-2 mb-2 shadow-lg">
-          <Card.Img variant="top" src="./assets/shapes/circle.jpeg" />
-          <Card.Body>
-            <ShapeCard titleColor="text-white" />
-            <Container fluid>
-              <AnswerView
-                mainObject="circle"
-                objTitle="circle"
-                optionBtn={shapeOptions}
-                btnColor="outline-success"
-              />
-            </Container>
-          </Card.Body>
-        </Card>
-      </Container>
-    </>
+    <Container>
+      <Card className="mt-2 mb-2 box-with-shadow game-cards">
+        <Card.Img variant="top" src="./assets/shapes/circle.jpeg" />
+        <Card.Body>
+          <ShapeCard titleColor="text-white" />
+          <Container fluid>
+            <AnswerView
+              mainObject="circle"
+              objTitle="circle"
+              optionBtn={shapeOptions}
+              btnColor="outline-success"
+            />
+          </Container>
+        </Card.Body>
+      </Card>
+    </Container>
   );
 };
 

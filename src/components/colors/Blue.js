@@ -5,26 +5,24 @@ import { ColorCard } from "../shared/cardConfigs";
 
 const Blue = () => {
   return (
-    <>
-      <Container>
-        <Card
-          style={{ width: "18rem", backgroundColor: "#6897ed" }}
-          className="mt-2 mb-2 shadow-lg"
-        >
-          <Card.Body>
-            <ColorCard titleColor="text-white" />
-            <Container fluid>
-              <AnswerView
-                mainObject="blue"
-                objTitle="blue"
-                optionBtn={colorOptions}
-                btnColor="light"
-              />
-            </Container>
-          </Card.Body>
-        </Card>
-      </Container>
-    </>
+    <Container>
+      <Card
+        style={{ backgroundColor: "#6897ed" }}
+        className="mt-2 mb-2 game-cards box-with-shadow"
+      >
+        <Card.Body>
+          <ColorCard titleColor="text-white" />
+          <Container fluid>
+            <AnswerView
+              mainObject="blue"
+              objTitle="blue"
+              optionBtn={colorOptions}
+              btnColor="light"
+            />
+          </Container>
+        </Card.Body>
+      </Card>
+    </Container>
   );
 };
 

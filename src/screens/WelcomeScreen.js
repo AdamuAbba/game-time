@@ -1,42 +1,20 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import ColorsScreen from "./ColorsScreen";
-import ShapesScreen from "./ShapesScreen";
+import { Container } from "react-bootstrap";
 import "./WelcomeScreen.css";
-
 const WelcomeScreen = () => {
   return (
-    <>
-      <Router>
-        <div>
-          <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
-            <Navbar.Brand className="text-danger">GAME TIME</Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="me-auto">
-                <Nav.Link as={Link} to="/colors">
-                  Colors Game
-                </Nav.Link>
-                <Nav.Link as={Link} to="/Shapes">
-                  Shapes Game
-                </Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
-        </div>
-        <div>
-          <Switch>
-            <Route path="/colors">
-              <ColorsScreen />
-            </Route>
-            <Route path="/shapes">
-              <ShapesScreen />
-            </Route>
-          </Switch>
-        </div>
-      </Router>
-    </>
+    <Container
+      style={{ height: "100vh" }}
+      fluid
+      className="bg-dark text-white d-flex justify-content-center align-items-center"
+    >
+      <div className="d-flex flex-column justify-content-center align-items-center text-center">
+        <h1>
+          Hello, Welcome to <span className="text-danger">Game Time</span>
+        </h1>
+        <h1>Please pick a game from the navigation bar above</h1>
+      </div>
+    </Container>
   );
 };
 

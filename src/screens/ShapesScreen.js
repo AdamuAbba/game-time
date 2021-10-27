@@ -7,22 +7,11 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const ShapesScreen = () => {
   return (
-    <>
-      <Container
-        fluid
-        style={{
-          backgroundImage: `url('${process.env.PUBLIC_URL}/assets/shapes/colorbackground.jpg')`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundAttachment: "fixed",
-          backgroundSize: "cover",
-          width: "100vw",
-          height: "100vh",
-        }}
-      >
-        <Container className="d-flex justify-content-center align-items-center">
-          <h1 className="text-danger">SHAPES TIME</h1>
-        </Container>
+    <Container fluid className="full-screen">
+      <Row>
+        <Row className="text-center">
+          <h1 className="text-white">SHAPES TIME</h1>
+        </Row>
         <Row>
           <Col>
             <Triangle />
@@ -37,8 +26,8 @@ const ShapesScreen = () => {
             <Square />
           </Col>
         </Row>
-      </Container>
-    </>
+      </Row>
+    </Container>
   );
 };
 

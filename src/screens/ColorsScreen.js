@@ -7,22 +7,11 @@ import Red from "../components/colors/Red";
 
 const ColorsScreen = () => {
   return (
-    <>
-      <Container
-        fluid
-        style={{
-          backgroundImage: `url('${process.env.PUBLIC_URL}/assets/colors/watercolor.jpg')`,
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          backgroundAttachment: "fixed",
-          backgroundSize: "cover",
-          width: "100vw",
-          height: "100vh",
-        }}
-      >
-        <Container className="d-flex justify-content-center align-items-center">
-          <h1 className="text-danger">COLOR TIME</h1>
-        </Container>
+    <Container fluid className="full-screen ">
+      <Row>
+        <Row className="text-center">
+          <h1 className="text-white">COLOR TIME</h1>
+        </Row>
         <Row>
           <Col>
             <Blue />
@@ -37,8 +26,8 @@ const ColorsScreen = () => {
             <Red />
           </Col>
         </Row>
-      </Container>
-    </>
+      </Row>
+    </Container>
   );
 };
 
