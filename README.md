@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Game Time <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/313/joystick_1f579-fe0f.png" height="50">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+<img src="https://cdn.dribbble.com/users/998555/screenshots/2534705/media/8023db0adf1b1bef94a155cdbd423140.gif" height="450" />
 
-## Available Scripts
+A very simple color and shape identification game for children
 
-In the project directory, you can run:
+</div>
 
-### `yarn start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+order..
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Home Page
+- colors Page
+- shapes page
 
-### `yarn test`
+Desktop view\
+<img src="https://github.com/AdamuAbba/myPortfolio/blob/main/demo%20gifs/laptop%20view%201.gif" width="500" height="450"/>...
+<img src="https://github.com/AdamuAbba/myPortfolio/blob/main/demo%20gifs/laptop%20view%202.gif" width="500" height="450"/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Mobile view\
+<img src="https://github.com/AdamuAbba/myPortfolio/blob/main/demo%20gifs/mobile%20view%201.gif" width="250" height="550"/>...
+<img src="https://github.com/AdamuAbba/myPortfolio/blob/main/demo%20gifs/mobile%20view%202.gif" width="250" height="550"/>
 
-### `yarn build`
+## Authors
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Abba Adamu](https://github.com/AdamuAbba)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔗 Links
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<a href="https://www.facebook.com/izshytypes" target="_blank">
+<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="facebook" />
+</a>
+<a href="https://www.instagram.com/shytypes1028/" target="_blank">
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram" />
+</a>
+<a href="https://twitter.com/shytypes1028">
+<img alt="twitter" src="https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="twitter" />
+</a>
+<a href="https://abbaportfolio.netlify.app/"  target="_blank">
+<img alt="portfolio" src="https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white" />
+</a>
+<a href="https://www.linkedin.com/in/abba-adamu-365a9b17a/">
+<img alt="linkedIn" src="https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
 
-### `yarn eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- simple game ui design
+- simple but educational game choices
+- responsive both on mobile and web
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Client:** <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+<img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+</a>
+<a href="https://www.w3schools.com/css/">
+<img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</a>
+<a href="https://www.javascript.com/" target="_blank" >
+<img alt="Javascript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1" />
+</a>
+<a href="https://react-bootstrap.github.io/" target="_blank">
+<img alt="bootstrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
+</a>
+<a href="https://reactjs.org/" target="_blank">
+<img alt="react" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+</a>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Server:** non
 
-## Learn More
+## Acknowledgements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [React docs](https://reactjs.org/)
+- [react bootstrap](https://react-bootstrap.github.io/)
+- [readme.so](https://readme.so/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Appendix
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This was a mini project that really helped me in understanding state management better in a react components <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/smiling-face-with-sunglasses_1f60e.png" height="25" width="25">
