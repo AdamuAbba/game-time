@@ -1,6 +1,6 @@
 # Game Time <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/313/joystick_1f579-fe0f.png" height="50">
 
-<div align="center">
+<div>
 <img src="https://cdn.dribbble.com/users/998555/screenshots/2534705/media/8023db0adf1b1bef94a155cdbd423140.gif" height="450" />
 
 A very simple color and shape identification game for children
@@ -16,12 +16,12 @@ order..
 - shapes page
 
 Desktop view\
-<img src="https://github.com/AdamuAbba/myPortfolio/blob/main/demo%20gifs/laptop%20view%201.gif" width="500" height="450"/>...
-<img src="https://github.com/AdamuAbba/myPortfolio/blob/main/demo%20gifs/laptop%20view%202.gif" width="500" height="450"/>
+<img src="https://github.com/AdamuAbba/demo-pics/blob/main/game-time/gametime%20desktop%201.gif" width="500" height="450"/>...
+<img src="https://github.com/AdamuAbba/demo-pics/blob/main/game-time/gametime%20desktop%202.gif" width="500" height="450"/>
 
 Mobile view\
-<img src="https://github.com/AdamuAbba/myPortfolio/blob/main/demo%20gifs/mobile%20view%201.gif" width="250" height="550"/>...
-<img src="https://github.com/AdamuAbba/myPortfolio/blob/main/demo%20gifs/mobile%20view%202.gif" width="250" height="550"/>
+<img src="https://github.com/AdamuAbba/demo-pics/blob/main/game-time/gametime%20mobile%201.gif" height="550"/>...
+<img src="https://github.com/AdamuAbba/demo-pics/blob/main/game-time/gametime%20mobile%202.gif" height="550"/>
 
 ## Authors
 
@@ -79,4 +79,4 @@ Mobile view\
 
 ## Appendix
 
-This was a mini project that really helped me in understanding state management better in a react components <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/smiling-face-with-sunglasses_1f60e.png" height="25" width="25">
+This was a mini project that really helped me in understanding state management better in a react components
