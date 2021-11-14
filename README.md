@@ -69,7 +69,9 @@ Mobile view\
 <img alt="react" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
 </a>
 
-**Server:** non
+**Server:**  <a href="https://www.netlify.com/" target="_blank">
+<img alt="netlify" src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/>
+</a>
 
 ## Acknowledgements
 
